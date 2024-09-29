@@ -7,17 +7,66 @@
    
 </head>
 <body>
-    <h1>我是易方升</h1>
-    <h2>這是我的照片</h2>
-    <img src="001.jpg" alt="我" height="10%" width="10%">
-    <h3>這是我家的維尼娃娃</h3>
-    <h4>他很可愛對吧</h4>
-    <img src="002.jpg" alt="娃娃" height="10%" width="10%">
-    <p>這是我最近常聽的音樂</p>
+    <div id="app">
+        <header class="profile-header">
+           <h1>易方升</h1>
+           <h2>YI, FANG-SHENG</h2>
+           <h3>淡江大學資訊管理學系四年級</h3>
+           </header>
+        <section class="photo">
+           <h4>我的照片</h4>
+           <h2></h2>
+           <img src="001.jpg" alt="我" height="10%" width="10%">
+           <h5>這是我家的維尼娃娃</h5>
+           <h6>他很可愛對吧</h6>
+           <img src="002.jpg" alt="娃娃" height="10%" width="10%">
+        </section>
+        <section class="experience">
+           <h4>打工經歷</h4>
+           <ul>          
+              <li><em>2014-2021</em>&nbsp;<strong>國高中時期</strong></li>
+                <ol>
+                <li>彩券行</li>
+                </ol>
+              <li><em>2022-07~08</em>&nbsp;<strong>大學一年級暑假</strong></li>
+                <ol>
+                  <li>晶傑達光電科技</li>
+                </ol>
+              <li><em>2024-07~08</em>&nbsp;<strong>大學三年級暑假</strong></li>
+                <ol>
+                  <li>旗勝科技</li>
+                </ol>
+           </ul>
+        </section>
+        
+        <section class="certification-section">
+          <h4>證照</h4>
+          <div class="cert-item">
+            <h5>TBSA商務企劃能力初級</h5>
+            <img width=200 src="http://www.tbsa.tw/ezfiles/tbsa/img/img/136627/156845063.png" alt="商務企劃">
+          </div>
+        </section>
+
+        <section class="cert-info-section">
+          <h4>證照資訊</h4>
+          <table>
+            <tr>
+              <th>證照名稱</th>
+              <th>證照資訊</th>
+            </tr>
+            <tr>
+              <td>TBSA商務企劃能力初級</td>
+              <td><a href="http://www.tbsa.tw/front/bin/ptlist.phtml?Category=370673">檢視證照資訊</a></td>
+            </tr>
+          </table>
+        </section>
+<br>
+    <p><strong>這是我最近常聽的音樂</strong></p>
     <a href="https://www.youtube.com/watch?v=YykjpeuMNEk" target="_blank">點這裡</a>
 
-    <h1>我喜歡吃拉麵</h1>
-    <h2>所以我放一個我自己的淡水拉麵排行</h2>
+    <h2>我喜歡吃拉麵</h2>
+    <h3>所以我放一個我自己的淡水拉麵排行</h3>
+    <h4>點擊按鈕有店家資訊</h4>
 <ol>
     <li><a href="https://maps.app.goo.gl/YCTH9aiWdFADpZue8" target="_blank">雞道樂</a></li>
     <li><a href="https://maps.app.goo.gl/R4Y9xUgyHSUi87QeA" target="_blank">一平拉麵</a></li>
@@ -25,6 +74,7 @@
     <li><a href="https://maps.app.goo.gl/MfvCDaFrHh15Cw6L6" target="_blank">麵屋敬太</a></li>
     <li><a href="https://maps.app.goo.gl/sXjRvnr5fF63QeqZA" target="_blank">二月拉麵</a></li>
 </o1>
+</div>
 <br><br>
 <form action="/submit" method="post">
     <label for="name">你覺得這個網頁如何</label>
@@ -34,12 +84,12 @@
 <br>
 <table>
     <tr>
-      <td>很棒</td>
-      <td>還行</td>
+      <td>1.很棒</td>
+      <td>2.還行</td>
     </tr>
     <tr>
-      <td>不好</td>
-      <td>重做</td>
+      <td>3.不好</td>
+      <td>4.重做</td>
     </tr>
   </table>
 
