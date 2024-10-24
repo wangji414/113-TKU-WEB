@@ -1,1 +1,2 @@
-console.log("Hello tkuim! 這是ts")
+
+console.log("hey tkuim");

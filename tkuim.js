@@ -1,1 +1,1 @@
-console.log("Hello! TKUIM");
+console.log("hello");
